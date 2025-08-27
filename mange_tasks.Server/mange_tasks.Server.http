@@ -1,0 +1,6 @@
+@mange_tasks.Server_HostAddress = http://localhost:5197
+
+GET {{mange_tasks.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

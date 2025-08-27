@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "mange_tasks.client", "mange_tasks.client\mange_tasks.client.esproj", "{C44DE41E-F57B-49EB-E4F0-C534331FF714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mange_tasks.Server", "mange_tasks.Server\mange_tasks.Server.csproj", "{B351E056-3D30-4121-ACF7-9F7EA655E237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C44DE41E-F57B-49EB-E4F0-C534331FF714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44DE41E-F57B-49EB-E4F0-C534331FF714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44DE41E-F57B-49EB-E4F0-C534331FF714}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C44DE41E-F57B-49EB-E4F0-C534331FF714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44DE41E-F57B-49EB-E4F0-C534331FF714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44DE41E-F57B-49EB-E4F0-C534331FF714}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B351E056-3D30-4121-ACF7-9F7EA655E237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B351E056-3D30-4121-ACF7-9F7EA655E237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B351E056-3D30-4121-ACF7-9F7EA655E237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B351E056-3D30-4121-ACF7-9F7EA655E237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E75096D-31A1-46D5-A324-C09F8560BB76}
+	EndGlobalSection
+EndGlobal
