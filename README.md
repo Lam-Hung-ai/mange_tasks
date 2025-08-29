@@ -35,7 +35,7 @@ Ví dụ:
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=ManageTasks;Trusted_Connection=True;TrustServerCertificate=True"
+  "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=MangeTasksDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True
 }
 ```
 
