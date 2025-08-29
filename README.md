@@ -41,18 +41,11 @@ Ví dụ:
 
 ### 4. Tạo database & áp dụng migrations
 
-Nếu bạn đã có thư mục **Migrations**:
 
 ```bash
 dotnet ef database update
 ```
 
-Nếu chưa có migration (lần đầu setup):
-
-```bash
-dotnet ef migrations add InitialCreate
-dotnet ef database update
-```
 
 ### 5. Chạy ứng dụng
 
@@ -60,12 +53,6 @@ dotnet ef database update
 dotnet run
 ```
 
-Ứng dụng sẽ chạy tại:
-
-```
-https://localhost:5001
-http://localhost:5000
-```
 
 ---
 
