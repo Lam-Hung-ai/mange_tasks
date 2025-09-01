@@ -39,6 +39,7 @@ public class AppDbContext : DbContext
             e.HasKey(x => x.Id);
             e.Property(x => x.Name).HasMaxLength(50).IsRequired();
             e.HasIndex(x => x.Name).IsUnique();
+            // Scope exists in the model; keep default mapping to match current snapshot
         });
 
         modelBuilder.Entity<RolePermission>(e =>
@@ -137,6 +138,7 @@ public class AppDbContext : DbContext
 
         modelBuilder.Entity<Tag>(e =>
         {
+            e.ToTable("Tag");
             e.HasKey(x => x.Id);
             e.Property(x => x.Id).ValueGeneratedOnAdd();
             e.Property(x => x.Name).HasMaxLength(50).IsRequired();
